@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  margin: 2rem;
+}
+
+.section {
+  text-align: left;
+  max-width: 720px;
+  margin: 4rem auto auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form * {
+  margin-top: 5px;
+}
+
+.nftGrid {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-gap: 5px;
+}
+
+.nft img{
+  width: 100%;
+  height: 80%;
+}
